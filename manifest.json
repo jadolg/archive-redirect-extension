@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Archive.is Redirect",
+    "version": "1.0",
+    "description": "Automatically redirects specific websites to their archive.is version",
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://example.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
