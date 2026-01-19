@@ -8,9 +8,10 @@
         "tabs"
     ],
     "host_permissions": [
-        "*://example.com/*"
+        "<all_urls>"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "type": "module"
     }
 }

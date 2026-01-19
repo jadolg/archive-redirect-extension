@@ -1,9 +1,4 @@
-// List of domains to redirect to archive.is
-const REDIRECT_DOMAINS = [
-    "example.com"
-    // Add more domains here as needed
-];
-
+import { REDIRECT_DOMAINS } from './config.js';
 
 chrome.webNavigation.onBeforeNavigate.addListener(
     (details) => {
